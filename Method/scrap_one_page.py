@@ -2,8 +2,8 @@ import requests
 from bs4 import BeautifulSoup
 
 
-def scrap_one():
-    page = requests.get("http://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html")
+def scrap_one(booklink):
+    page = requests.get(booklink)
     page.encoding = "utf-8"
 
     # Récupération de l'URL de la page
@@ -60,4 +60,5 @@ def scrap_one():
         'review_rating': rate,
         'image_url': image_url
     }
-    print(book)
+
+    return book
