@@ -13,6 +13,13 @@ book_info = []
 books_info = []
 new_folder = None
 
+os.makedirs('Data\\Image', exist_ok=True)
+os.makedirs('Data\\Category', exist_ok=True)
+# if not os.path.exists('.\Data\Image'):
+#     os.mkdir(f'.\Data\Image')
+# if not os.path.exists(f'.\Data\Category'):
+#     os.mkdir(f'.\Data\Category')
+
 for categorylink in categorylinks:
     booklinks = scrap_one_category(categorylink)
 
