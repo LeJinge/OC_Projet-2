@@ -6,7 +6,7 @@ Ce projet permet de scraper des données importantes de livres sur le site http:
 
 ## Installation et lancement du script
 
-Prerequis : 
+Prérequis : 
 - Python
 - Git
 
@@ -20,7 +20,7 @@ Placez vous dans le dossier Projet_2_Books_To_Scrap puis créez un nouvel enviro
 python -m venv .env
 ```
 
-Ensuite activez cette environnement virtuel :
+Ensuite activez cet environnement virtuel :
 
 Windows :
 ```
@@ -32,7 +32,7 @@ Linux et Mac OS :
 source .env/scripts/activate
 ```
 
-Pour finir installer les packages nécesaaires :
+Pour finir installer les packages nécessaires :
 ```
 pip install -r requirements.txt
 ```
