@@ -12,10 +12,10 @@ Prérequis :
 
 Une fois les prérequis installés, placez vous dans un répertoire souhaité puis clonez le repository :
 ```
-git clone https://github.com/LeJinge/OC_Projet-2.gitcd
+git clone https://github.com/LeJinge/OC_Projet-2.git
 ```
 
-Placez vous dans le dossier Projet_2_Books_To_Scrap puis créez un nouvel environnement virtuel :
+Placez vous dans le dossier OC_Projet-2 puis créez un nouvel environnement virtuel :
 ```
 python -m venv .env
 ```
